@@ -501,12 +501,19 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     color: #EDC613; 
     text-align: center;
     margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-style: italic;
 }
 .main .version {
-	color: #5BE7C4;	
+	color: #5BE7C4;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 .main .info-text {
 	color: #fff;	
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 .main .subscribe .info-text{
     font-size: 18px;
@@ -559,6 +566,8 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 .main .bottom-text {
 	color: #fff;
 	margin-top: 150px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 @media (min-width:219px){        
