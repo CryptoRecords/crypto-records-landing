@@ -33,11 +33,14 @@
 							<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="a_password"
 								tabindex="-1" value="" autocomplete="off" />
 							</div>
-							<div class="form-group form__group">
-								<label class="sr-only" for="exampleInputEmail2">Email address</label>
-								<input type="email" class="form__field form-control transparent" placeholder="Email" required />
-                          	</div>
-                          <button type="submit" class="btn submit"></button>
+							<div class="email-form">
+                                <div class="form__group field">
+                                    <input class="form__field" type="email" placeholder="Email" name="email" required />
+                                    <label for="email" class="form__label">Email</label>
+                                </div>
+                
+                                <button class="button" type="submit">Submit</button>
+                            </div>
                         </form>
 						<script src="https://sendfox.com/js/form.js"></script>	
                     </div>
