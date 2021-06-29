@@ -54,6 +54,8 @@ h1, .h1 {
 }
 h2, .h2{
     font-size: 36px;
+	font-family: Avenir;
+	text-color: White;
 }
 h3, .h3{
     font-size: 28px;
